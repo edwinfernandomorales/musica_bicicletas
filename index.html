@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Trabajo</title>
+  </head>
+  <body>
+    <div class="container">
+      <br><br>
+
+      <div class="row">
+        <div class="col-3">
+          <div class="nav flex-column nav-pills" id="pildoras" role="tablist" aria-orientation="vertical">
+            <a class="nav-link active" id="musica-tab" data-toggle="pill" href="#musica" role="tab" aria-controls="musica" aria-selected="true">Musica</a>
+            <a class="nav-link" id="bicicletas-tab" data-toggle="pill" href="#bicicletas" role="tab" aria-controls="bicicletas" aria-selected="false">Bicicletas</a>
+          </div>
+        </div>
+
+        <div class="col-9">
+          <div class="tab-content" id="pildorasContent">
+            <div class="tab-pane fade show active" id="musica" role="tabpanel" aria-labelledby="musica-tab"></div>
+            <div class="tab-pane fade" id="bicicletas" role="tabpanel" aria-labelledby="bicicletas-tab"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="javascript/scripts.js" charset="utf-8"></script>
+    <script type="text/javascript">
+      musica();
+    </script>
+  </body>
+</html>
